@@ -14,7 +14,6 @@ import json
 from dataclasses import dataclass, field
 from datetime import UTC, datetime, timedelta
 from decimal import Decimal
-from typing import Any
 
 import structlog
 from kafka import KafkaConsumer
